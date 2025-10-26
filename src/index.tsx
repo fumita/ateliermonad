@@ -60,6 +60,38 @@ app.get('/', (c) => {
             <li>経営、組織及び人材育成に関するコンサルティング業務</li>
           </ol>
         </div>
+
+        <section id="service" class="service-section">
+          <div class="container">
+            <h2 class="service-main-title">サービス</h2>
+
+            <div class="service-item">
+              <h3 class="service-item-title">技術支援</h3>
+              <p class="service-description">
+                過去、多くの開発を行なってた知見を活かし、事業に必要な技術選定、およびアーキテクチャ設計を支援します。
+              </p>
+              <h4 class="service-example-title">事例</h4>
+              <ul class="service-example-list">
+                <li>新規ウェブサービスにおいて、技術選定、アーキテクチャ構成支援、および、その質の高い実装を手がけ、ある程度メンバーや会社規模が変わっても耐えられるようなアーキテクチャを構成しました。</li>
+              </ul>
+            </div>
+
+            <div class="service-item">
+              <h3 class="service-item-title">コンサルティング</h3>
+              <p class="service-description">
+                レベルの高いエンジニアを育成するには、十分レベルが高いエンジニアからの指導が 上達の近道であると考えています。
+                エンジニア育成・採用に関するコンサルティングを行なっています。
+              </p>
+              <h4 class="service-example-title">事例</h4>
+              <ul className="service-example-list">
+                <li>未成熟なエンジニア組織を成熟したものにするべく、採用面接に関するトレーニングを行ない、より確度の高い面接ができるような指導を行ないました。</li>
+              </ul>
+              <ul className="service-example-list">
+                <li>情報系出身でない新卒者や、IT業界出身でない非エンジニア職に対してレベルに合わせた研修を行い、最新のWeb系スタートアップの業務水準に耐えられるようなIT基礎力を習得する研修を行ないました。</li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   )
