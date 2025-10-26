@@ -175,18 +175,39 @@ section {
     margin-bottom: 1.5rem;
 }
 
-.about-info dl {
+.company-info-grid {
     display: grid;
-    grid-template-columns: 150px 1fr;
-    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 1.5rem;
 }
 
-.about-info dt {
+.company-info-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.info-label {
+    font-size: 0.9rem;
     font-weight: 600;
     color: var(--text-color);
 }
 
-.about-info dd {
+.info-value {
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.info-kana {
+    font-size: 0.85rem;
     color: var(--text-light);
 }
 
@@ -234,12 +255,8 @@ section {
         grid-template-columns: 1fr;
     }
 
-    .about-info dl {
+    .company-info-grid {
         grid-template-columns: 1fr;
-        gap: 0.5rem;
-    }
-
-    .about-info dd {
-        margin-bottom: 1rem;
+        gap: 2rem;
     }
 }
